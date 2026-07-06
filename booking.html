@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Stay | Southern Inn</title>
+  <meta name="description" content="Reserve your luxury stay at Southern Inn in Puducherry.">
+  <meta name="keywords" content="hotel booking, Southern Inn, luxury hotel, Puducherry">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Southern Inn</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="amenities.html">Amenities</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-banner"><div class="container"><h1>Book Your Stay</h1><p>Reserve your perfect room and enjoy an unforgettable experience at Southern Inn</p></div></section>
+<section class="container section form-section">
+  <h2>Book Your Stay</h2>
+
+<p style="text-align:center; margin-bottom:30px;">
+  Fill in the details below to reserve your room at <strong>Southern Inn</strong>. Our team will contact you shortly to confirm your booking.
+</p>
+
+<form id="bookingForm">
+
+  <label for="name">Full Name</label>
+  <input type="text" id="name" placeholder="Enter your full name" required>
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" placeholder="Enter your email address" required>
+
+  <label for="phone">Phone Number</label>
+  <input type="tel" id="phone" placeholder="Enter your 10-digit phone number" required>
+
+  <label for="room">Room Type</label>
+  <select id="room" required>
+    <option value="">Select Room Type</option>
+    <option>Jacuzzi King Room</option>
+    <option>Jacuzzi Queen Room</option>
+    <option>Sea View King Room</option>
+    <option>Sea View Queen Room</option>
+    <option>Double Bed Family Room</option>
+  </select>
+
+  <label for="checkin">Check-in Date</label>
+  <input type="date" id="checkin" required>
+
+  <label for="checkout">Check-out Date</label>
+  <input type="date" id="checkout" required>
+
+  <label for="guests">Number of Guests</label>
+  <select id="guests">
+    <option>1 Guest</option>
+    <option>2 Guests</option>
+    <option>3 Guests</option>
+    <option>4 Guests</option>
+  </select>
+
+  <label for="message">Special Requests</label>
+  <textarea id="message" rows="4" placeholder="Any special requests? (Optional)"></textarea>
+
+  <button class="btn" type="submit">Reserve Now</button>
+
+  <p id="formMessage" class="result"></p>
+
+</form>
+</section>
+<section class="container section">
+    <h2>Why Choose Southern Inn?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🛏 Luxury Rooms</h3>
+            <p>Beautifully designed rooms with premium amenities and elegant interiors.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌿 Peaceful Ambience</h3>
+            <p>Relax in a calm environment inspired by French architecture and pastel aesthetics.</p>
+        </div>
+
+        <div class="card">
+            <h3>⭐ Exceptional Hospitality</h3>
+            <p>Our dedicated team ensures every guest enjoys a memorable and comfortable stay.</p>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+   <div>
+     <h3>Southern Inn</h3>
+     <p>Experience timeless elegance, luxurious comfort and personalized hospitality in the heart of Puducherry..</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="rooms.html">Rooms</a> | <a href="amenities.html">Amenities</a> | <a href="gallery.html">Gallery</a> | <a href="reviews.html">Reviews</a> | <a href="booking.html">Book Now</a></p>
+      </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email:reservations@southerninn.com<br>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Southern Inn. All Rights Reserved..</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
